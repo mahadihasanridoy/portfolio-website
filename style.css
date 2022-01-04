@@ -8,7 +8,7 @@ h1{
 }
 
 
-section{
+.flexible-container{
 
     display:flex;
     margin-bottom: 150px;
@@ -42,3 +42,51 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experience-item{
+    width:40%;
+    margin-left:5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#my-web{
+
+    border-left:7px solid;
+    border-image: 
+  linear-gradient(
+    to bottom, 
+    salmon,
+    tomato 
+  ) 1 100%;
+    border-image-slice: 1; 
+
+}
+#baby-web{
+    
+    border-left:7px solid ;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      blue, 
+      cyan
+    ) 1 100%;
+    border-image-slice: 1; 
+    
+   
+}
+ //*padding: 1rem;
+    
+border-width: 3px;
+border-style: solid;
+border-image: 
+  linear-gradient(
+    to bottom, 
+    red, 
+    rgba(0, 0, 0, 0)
+  ) 1 100%;*//
